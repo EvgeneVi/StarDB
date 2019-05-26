@@ -1,0 +1,28 @@
+.info-person{
+    padding: 1rem;
+    margin: 0
+
+}
+.info-person img{
+    width: 320px;
+}
+.info-person, .info-person img{
+    border-radius: .25rem
+}
+.info-person ul{
+    padding: 0
+}
+.info-person ul li{
+    list-style: none;
+    font-size: 1.2em;
+    border-bottom: 1px solid #444;
+    margin:  0 0 0.5rem 0 
+}
+.info-person ul li:first-child{
+    font-size: 1.5em
+}
+.wrapper-loader{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}

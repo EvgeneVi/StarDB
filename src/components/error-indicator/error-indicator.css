@@ -1,0 +1,24 @@
+.error-indicator {
+    margin: 1rem 0 1rem 0;
+    width: 100%;
+    display: flex;
+    justify-content: center
+}
+
+.error-indicator .wrapp-error {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.wrapp-error .img {
+    background: url(/static/media/death-star.fa7e6cc9.png) no-repeat center;
+    background-size: contain;
+    height: 300px;
+    
+}
+
+.wrapp-error span {
+    text-align: center;
+    color: #f5c31d;
+}

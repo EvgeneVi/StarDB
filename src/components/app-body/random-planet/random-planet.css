@@ -1,0 +1,78 @@
+.random-planet {
+    padding: 0;
+    border-radius: .25rem
+}
+.img-planet{
+    padding: 0
+}
+.img-planet img {
+    width: 350px;
+    padding: 1rem
+}
+.info-planet{
+    padding: 1rem
+}
+.random-planet ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 0 1.5rem;
+}
+
+.random-planet ul li:first-child {
+    position: relative;
+    left: -1.5rem;
+    border: 0 !important;
+    font-size: 2em
+}
+
+.random-planet ul li {
+    list-style: none;
+    font-size: 1.3em;
+    border-bottom: 1px solid #444;
+    margin: 0 0 1rem 0
+} 
+
+@media screen and (max-width: 992px) {
+    .random-planet ul{
+        font-size: 12px 
+    }
+ 
+    .img-planet img {
+        width: 300px
+    }   
+}
+@media screen and (max-width: 768px){
+
+    .img-planet img {
+        width: 270px
+    }
+    .random-planet ul {
+        padding: 0 0 0 1rem
+    }
+}
+@media screen and (max-width: 650px){
+    .random-planet ul {
+        padding: 0 0 0 .5rem;
+        font-size: 10px
+    }
+    .random-planet ul li:first-child {
+        left:0
+    }
+}
+@media screen and (max-width:576px){
+    .app-header{
+        flex-direction: column
+    }
+    .Nav-logo{
+        align-self: center
+    }
+    .random-planet ul{
+        font-size: 12px
+    }
+    .img-planet img {
+         width: 100%
+     }
+    .random-planet ul li:first-child  {
+        align-self: center
+    }
+}

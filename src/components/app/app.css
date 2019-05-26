@@ -1,0 +1,13 @@
+/* body{
+    background: url(../../images/setwalls.ru-11922.jpg) no-repeat fixed center;
+    background-size: cover;
+
+    
+  
+
+} */
+.wrapper-container{
+  flex-direction: column;
+  width: 80vw;
+  margin: 0 auto
+}
